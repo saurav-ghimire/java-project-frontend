@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Scooter - The Future of Riding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- wrapper -->
+    <div class="wrapper" >
+    <!-- Navigation -->
+    <nav class="navbar custom-nav navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+            <svg width="70" height="47" viewBox="0 0 70 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.8224 34.0672C16.2438 34.0672 13.3424 31.1453 13.3424 27.5416C13.3424 23.9378 16.2438 21.0159 19.8224 21.0159C22.7683 21.0159 25.2551 22.9955 26.0423 25.7055L37.247 19.1229C34.1299 12.5919 27.499 8.08301 19.8224 8.08301C9.15085 8.08301 0.5 16.7956 0.5 27.5415C0.5 38.2883 9.15085 47.0001 19.8224 47.0001C30.494 47.0001 39.1448 38.2883 39.1448 27.5415H26.3024C26.3024 31.1453 23.4009 34.0672 19.8224 34.0672Z" fill="#42454A"/>
+            <path d="M54.3221 12.2568C45.9397 12.2568 39.1445 19.1006 39.1445 27.5413H50.2926C50.2926 25.2998 52.0963 23.4835 54.3221 23.4835C56.5472 23.4835 58.3516 25.2998 58.3516 27.5413C58.3516 29.7828 56.5472 31.5992 54.3221 31.5992C52.3978 31.5992 50.7888 30.2415 50.3884 28.4244L40.6345 34.1543C43.0835 39.2843 48.2915 42.8258 54.3221 42.8258C62.7045 42.8258 69.4997 35.9828 69.4997 27.5414C69.4997 19.1006 62.7045 12.2568 54.3221 12.2568Z" fill="#42454A"/>
+            <path d="M38.2312 10.2289C41.9928 10.2289 45.7307 9.69808 49.3672 8.72895C50.9483 8.30759 52.6089 8.08303 54.3218 8.08303C55.2523 8.08303 56.167 8.14912 57.062 8.27743C56.6179 5.96225 55.3979 3.92496 53.6862 2.45111C51.9113 0.922598 49.6078 0 47.0893 0H21.2168C24.4809 6.09059 30.8765 10.2289 38.2312 10.2289Z" fill="#42454A"/>
+            </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#specs">Specs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="btn btn-dark ms-2" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-md-5">
+                    <div class="contact-info">
+                        <h2 class="mb-4">Get in Touch</h2>
+                        <p>We'd love to hear from you! Reach out to us for any inquiries, feedback, or support.</p>
+                        <ul>
+                            <li><strong>📍</strong> 123 Electric Ave, Sarnia, ON, Canada</li>
+                            <li><strong>📞</strong> +1 234-567-8900</li>
+                            <li><strong>📧</strong> contact@electricscooter.com</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <h4 class="mb-3">Send Us a Message</h4>
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="message" rows="4" placeholder="Type your message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Maps -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h4 class="text-center mb-3">Our Location</h4>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509547!2d144.95373531565478!3d-37.8162794420217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772b8c2e4cbee3!2sElectric%20Scooter%20Showroom!5e0!3m2!1sen!2sca!4v1709832199012" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+
+                <div class="col-md-2">
+                    <h5>About</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Company</a></li>
+                        <li><a href="#" class="text-white">Team</a></li>
+                        <li><a href="#" class="text-white">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Documentation</a></li>
+                        <li><a href="#" class="text-white">Support</a></li>
+                        <li><a href="#" class="text-white">Legal</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Legals</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Copyright Privacy</a></li>
+                        <li><a href="#" class="text-white">Policy Disclaimer</a></li>
+                        <li><a href="#" class="text-white">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4 border-light">
+            <div class="row copyright">
+                <div class="col-md-6">
+                    <p class="mb-0">© 2025 eScooter. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <img src="./images/footer.png" class="footer-bike">
+s    </footer>
+    </div><!--  wrapper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
